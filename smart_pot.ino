@@ -1,5 +1,3 @@
-//Welcome to Electronics University
-//Subscribe us if you want to learn something new.
 
 #include <dht.h>
 #include <LiquidCrystal.h>
@@ -10,7 +8,7 @@ dht DHT;
 
 #define DHT11_PIN 5
 
-int sensor_pin = A0; // Soil Sensor input at Analog PIN A0
+int sensor_pin = A0; // Soil Sensor input
 int output_value ;
 int relayPin = 6;
 
